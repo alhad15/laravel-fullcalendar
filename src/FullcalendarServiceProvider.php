@@ -41,7 +41,7 @@ class FullcalendarServiceProvider extends ServiceProvider
         ], 'config');
 
         // publish all the required files to generate the calendar
-        $this->publishes([
+        /*$this->publishes([
             // fullcalendar library
             __DIR__ . '/../../../npm-asset/fullcalendar/dist/fullcalendar.css'       => public_path('css/fullcalendar.css'),
             __DIR__ . '/../../../npm-asset/fullcalendar/dist/fullcalendar.print.css' => public_path('css/fullcalendar.print.css'),
@@ -51,6 +51,7 @@ class FullcalendarServiceProvider extends ServiceProvider
             // moment library
             __DIR__ . '/../../../npm-asset/moment/moment.js'                         => public_path('js/moment.js'),
         ], 'fullcalendar');
+        */
     }
 
     /**
