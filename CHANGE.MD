@@ -1,5 +1,8 @@
 Change Log: `laravel-fullcalendar`
 ==================================
+## Version 1.2.5
+**Date:** 19-Aug-2019
+Removed npm-asset/fullcalendar not required for my project
 
 ## Version 1.2.4
 
